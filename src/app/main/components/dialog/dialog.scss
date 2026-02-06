@@ -1,0 +1,31 @@
+.custom-dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  min-width: 320px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.dialog-content {
+  position: relative;
+  padding: 2rem 2rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: #eee;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.close-btn:hover {
+  background: #ccc;
+}
